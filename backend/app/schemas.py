@@ -16,10 +16,13 @@ class QuizResponse(BaseModel):
     questions: List[Question]
 
 class BookMetadata(BaseModel):
+    # Book information from Google Books
+
     title: str
     authors: List[str]
     google_books_id: str
     description: Optional[str] = None
+    thumbnail: Optional[str] = None
 
 class HistoryEntry(BaseModel):
     book: BookMetadata
