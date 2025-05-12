@@ -11,7 +11,7 @@ RUN npm install
 COPY . .
 
 # Expose development port
-EXPOSE 51889
+EXPOSE 4001
 
 # Use polling to watch files
 ENV CHOKIDAR_USEPOLLING=true
