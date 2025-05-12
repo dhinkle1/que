@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-wheel-metadata/
+*.egg-info/
+.build/
+.pytest_cache/
+.local/
+.git
